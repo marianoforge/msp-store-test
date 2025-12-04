@@ -18,4 +18,9 @@ module.exports = defineConfig({
       },
     },
   },
+  modules: [
+    {
+      resolve: "./src/modules/invoice",
+    },
+  ],
 });
